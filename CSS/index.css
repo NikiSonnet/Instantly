@@ -1,0 +1,84 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+/* Header Design*/
+header {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 50px 0px 0px 0px;
+  background:
+    linear-gradient(rgba(255,255,224,0.4), rgba(255,255,224,0.7)),
+    url(/assets/header_test.jpg);
+  background-size: cover;
+  width: 100%;
+}
+/* Header Text 1.*/
+h1#welcome{
+  font-size: 80px;
+  line-height:82px;
+  color:#4D525A;
+}
+/* Header Text 2.*/
+h2#welcome_message{
+  font-size: 20px;
+  line-height: 22px;
+  color:#4D525A;
+  margin: 40px;
+}
+ul.menu_bar{
+  padding: 40px;
+  background: rgba(77,82,90,0.8);
+  width: 100%
+  list-style-type: none;
+  justify-content: center;
+}
+li{
+  display: inline;
+  position: relative;
+  width: 100%;
+}
+a {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/* Menu Links */
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:active{
+  color: #461326;
+  text-decoration: none;
+}
+
+/* Paragraph */
+article{
+  text-align: justify;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 800px;
+  padding: 10px;
+}
+
+/* Image Fuji Instax Mini 8 Size: 54(W) x 86(H) */
+.gallery{
+  width: auto;
+  display: block;
+  text-align: center;
+}
+img{
+  width: 226.771654px;
+  height: 347.716535px;
+  margin: 50px;
+}
