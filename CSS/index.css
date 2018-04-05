@@ -1,5 +1,11 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 /* Header Design*/
+nav{
+  margin-bottom: 200px;
+  height: 10px;
+  width: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+}
 header {
   text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
@@ -29,32 +35,6 @@ ul.menu_bar{
   width: 100%
   list-style-type: none;
   justify-content: center;
-}
-li{
-  display: inline;
-  position: relative;
-  width: 100%;
-}
-a {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-/* Menu Links */
-a:link{
-  color: white;
-  text-decoration: none;
-}
-a:hover{
-  color: white;
-  text-decoration: none;
-}
-a:visited{
-  color: white;
-  text-decoration: none;
-}
-a:active{
-  color: #461326;
-  text-decoration: none;
 }
 
 /* Paragraph */
