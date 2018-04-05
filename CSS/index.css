@@ -1,10 +1,20 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 /* Header Design*/
 nav{
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 200px;
   height: 10px;
   width: 100%;
   font-family: "Lucida Console", Monaco, monospace;
+}
+.page_tabs{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
 }
 header {
   text-align: center;
@@ -12,7 +22,7 @@ header {
   padding: 50px 0px 0px 0px;
   background:
     linear-gradient(rgba(255,255,224,0.4), rgba(255,255,224,0.7)),
-    url(/assets/header_test.jpg);
+    url(../assets/header_test.jpg);
   background-size: cover;
   width: 100%;
 }
