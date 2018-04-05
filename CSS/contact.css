@@ -26,13 +26,13 @@ header {
   background-size: cover;
   width: 100%;
 }
-h1#welcome{
+h1#title{
   font-size: 80px;
   line-height:82px;
   color:#4D525A;
 }
 /* Header Text 2.*/
-h2#welcome_message{
+h2#write_to_me{
   font-size: 20px;
   line-height: 22px;
   color:#4D525A;
@@ -113,7 +113,7 @@ input[type=submit]:hover {
     margin: auto;
 }
 .write_to_us{
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   font-size: 22px;
   line-height: 24px;
